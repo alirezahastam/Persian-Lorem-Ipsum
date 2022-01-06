@@ -1,0 +1,26 @@
+{
+  "name": "persian-lorem-ipsum",
+  "displayName": "Persian-Lorem-Ipsum",
+  "description": "This plugin is made for Code Visual Studio software.",
+  "version": "0.0.1",
+  "publisher": "special-one",
+  "icon": "pli.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/attackeralireza/Persian-Lorem-Ipsum.git"
+  },
+  "engines": {
+    "vscode": "^1.63.2"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/main-code.code-snippets"
+      }
+    ]
+  }
+}
